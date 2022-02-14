@@ -46,7 +46,8 @@ module tdisplay_tb();
        //sequence the input stimulus
        //
        initial begin
-            c_f = 0; @(posedge clk)#1;
+            c_f = 0;
+            tc = 13'b1111111111011; #(CLK_PD*5); //-5 in twos complement
          $stop;
        end
 endmodule
