@@ -17,8 +17,11 @@ int main() {
     int sr = 0;
     int sl = 0;
     
-    int speed_inc = 0xffff;
+//    int full = 0xffff;
+//    int off = 0x0000;
     
+    delayms(3000);
+
     while (1) {
         sl = analogRead(LEFT_SENSOR);
         sr = analogRead(RIGHT_SENSOR);
@@ -27,25 +30,25 @@ int main() {
         //if the right sensor reads black, move left motor faster than left to reorient
         //if both sensors are reading white, continue without altering motors
         
-        if (sl < 255) {   //if the left sensor is reading black, right is sped up
+        if (sl > 375) {   //if the left sensor is reading black, the right is sped up and left is slowed
             RBACK = 0;
             LBACK = 0;
-            RFORWARD = speed_inc;
-            LFORWARD = 0xaaaa;
+            RFORWARD = 0xffff;
+            LFORWARD = 0x1fff;
             writeLEDs(1000);
                  
-        } else if (sr < 255) { //if the right sensor is reading black, left is sped up
-           RBACK = 0;
+        } else if (sr > 375) { //if the right sensor is reading black, left is sped up and right is slowed down
+            RBACK = 0;
             LBACK = 0;
-            RFORWARD = 0xaaaa;
-            LFORWARD = speed_inc;
+            RFORWARD = 0x1fff;
+            LFORWARD = 0xffff;
             writeLEDs(0001);
             
         } else {
             RBACK = 0;
             LBACK = 0;
-            RFORWARD = 0xaaaa;
-            LFORWARD = 0xaaaa;
+            RFORWARD = 0xffff;
+            LFORWARD = 0xffff;
             writeLEDs(0000);
         }
     } 
