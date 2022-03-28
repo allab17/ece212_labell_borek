@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>lab07.s</itemPath>
+      <itemPath>lab07_T2.s</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -13,6 +13,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>lab07.s</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -200,9 +201,11 @@
         <property key="wpo-lto" value="false"/>
       </C32Global>
       <Simulator>
+        <property key="W0011_CORE_SIM32_UNIMPLEMENTED_RAMACCESS" value="report"/>
         <property key="periphADC1.minTacq" value="132"/>
       </Simulator>
       <Tool>
+        <property key="W0011_CORE_SIM32_UNIMPLEMENTED_RAMACCESS" value="report"/>
         <property key="periphADC1.minTacq" value="132"/>
       </Tool>
     </conf>

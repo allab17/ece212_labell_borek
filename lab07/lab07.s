@@ -1,10 +1,10 @@
 # $s0 = i , $s1 = f_1 , $s2 = f_2 , $s3 = n_f , $a0 = n , $v0
 
-
+    
 .global main
     
 .set noreorder
-
+    
 main: addi $a0, $0, 20
       jal fib 
       addi $0, $0, 0
