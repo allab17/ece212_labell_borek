@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr  6 14:03:10 2022
+# Process ID: 6596
+# Current directory: C:/Users/labella/Documents/ece212_labell_borek/lab08/Lab08
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14836 C:\Users\labella\Documents\ece212_labell_borek\lab08\Lab08\Lab08.xpr
+# Log file: C:/Users/labella/Documents/ece212_labell_borek/lab08/Lab08/vivado.log
+# Journal file: C:/Users/labella/Documents/ece212_labell_borek/lab08/Lab08\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/labella/Documents/ece212_labell_borek/lab08/Lab08/Lab08.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/a}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/b}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/y}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/sign_extend_enb}} 
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_sim

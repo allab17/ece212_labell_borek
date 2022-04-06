@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../../Downloads/sv/adder.sv" \
+"../../../../../../../../Downloads/sv/alu.sv" \
+"../../../../../../../../Downloads/sv/mips_decls_p.sv" \
+"../../../../../../../../Downloads/sv/aludec.sv" \
+"../../../../../../../../Downloads/sv/controller.sv" \
+"../../../../../../../../Downloads/sv/datapath.sv" \
+"../../../../../../../../Downloads/sv/dmem.sv" \
+"../../../../../../../../Downloads/sv/flopr.sv" \
+"../../../../../../../../Downloads/sv/imem.sv" \
+"../../../../../../../../Downloads/sv/maindec.sv" \
+"../../../../../../../../Downloads/sv/mips.sv" \
+"../../../../../../../../Downloads/sv/mux2.sv" \
+"../../../../../../../../Downloads/sv/regfile.sv" \
+"../../../../../../../../Downloads/sv/signext.sv" \
+"../../../../../../../../Downloads/sv/sl2.sv" \
+"../../../../../../../../Downloads/sv/top.sv" \
+"../../../../../../../../Downloads/sv/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

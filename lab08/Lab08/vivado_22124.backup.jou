@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr  4 14:04:28 2022
+# Process ID: 22124
+# Current directory: C:/Users/labella/Documents/ece212_labell_borek/lab08/Lab08
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17928 C:\Users\labella\Documents\ece212_labell_borek\lab08\Lab08\Lab08.xpr
+# Log file: C:/Users/labella/Documents/ece212_labell_borek/lab08/Lab08/vivado.log
+# Journal file: C:/Users/labella/Documents/ece212_labell_borek/lab08/Lab08\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/labella/Documents/ece212_labell_borek/lab08/Lab08/Lab08.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/jump}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/zero}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_C/U_MD/branchne}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/readdata}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_C/U_MD/sign_extend_enb}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/aluout}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_SE/y}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_C/alusrc}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/readdata}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/a}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/b}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/y}} 
+relaunch_sim
+close_sim

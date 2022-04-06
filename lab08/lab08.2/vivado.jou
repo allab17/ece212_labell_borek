@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr  6 15:59:43 2022
+# Process ID: 8280
+# Current directory: C:/Users/labella/Documents/ece212_labell_borek/lab08/lab08.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8860 C:\Users\labella\Documents\ece212_labell_borek\lab08\lab08.2\lab08.2.xpr
+# Log file: C:/Users/labella/Documents/ece212_labell_borek/lab08/lab08.2/vivado.log
+# Journal file: C:/Users/labella/Documents/ece212_labell_borek/lab08/lab08.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/labella/Documents/ece212_labell_borek/lab08/lab08.2/lab08.2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_C/branchne}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/a}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/b}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/y}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_C/U_MD/aluop}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/zero}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_C/branch}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/a}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/b}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/y}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/U_ALU/f}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/pcsrc}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/writedata}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/readdata}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_C/U_AD/alucontrol}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/result}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/pc}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/instr}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/opcode}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/funct}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/dataadr}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/writedata}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/memwrite}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/result}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_C/U_MD/regwrite}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/cycle}} 
+relaunch_sim
+close_sim

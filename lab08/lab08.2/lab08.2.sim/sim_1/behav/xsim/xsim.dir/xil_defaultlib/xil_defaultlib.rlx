@@ -1,0 +1,22 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/labella/Documents/ece212_labell_borek/lab08/lab08.2/lab08.2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/adder.sv,1649187352,systemVerilog,,C:/Users/labella/Downloads/sv/alu.sv,,adder,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/alu.sv,1649187352,systemVerilog,,C:/Users/labella/Downloads/sv/mips_decls_p.sv,,alu,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/aludec.sv,1649277647,systemVerilog,,C:/Users/labella/Downloads/sv/controller.sv,,aludec,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/controller.sv,1649192140,systemVerilog,,C:/Users/labella/Downloads/sv/datapath.sv,,controller,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/datapath.sv,1649269424,systemVerilog,,C:/Users/labella/Downloads/sv/dmem.sv,,datapath,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/dmem.sv,1649187352,systemVerilog,,C:/Users/labella/Downloads/sv/flopr.sv,,dmem,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/flopr.sv,1649187352,systemVerilog,,C:/Users/labella/Downloads/sv/imem.sv,,flopr,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/imem.sv,1649187352,systemVerilog,,C:/Users/labella/Downloads/sv/maindec.sv,,imem,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/maindec.sv,1649280738,systemVerilog,,C:/Users/labella/Downloads/sv/mips.sv,,maindec,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/mips.sv,1649279697,systemVerilog,,C:/Users/labella/Downloads/sv/mux2.sv,,mips,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/mips_decls_p.sv,1649187353,systemVerilog,C:/Users/labella/Downloads/sv/aludec.sv;C:/Users/labella/Downloads/sv/controller.sv;C:/Users/labella/Downloads/sv/maindec.sv;C:/Users/labella/Downloads/sv/mips.sv,C:/Users/labella/Downloads/sv/aludec.sv,,mips_decls_p,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/mux2.sv,1649187353,systemVerilog,,C:/Users/labella/Downloads/sv/regfile.sv,,mux2,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/regfile.sv,1649187353,systemVerilog,,C:/Users/labella/Downloads/sv/signext.sv,,regfile,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/signext.sv,1649270267,systemVerilog,,C:/Users/labella/Downloads/sv/sl2.sv,,signext,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/sl2.sv,1649187353,systemVerilog,,C:/Users/labella/Downloads/sv/top.sv,,sl2,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/testbench.sv,1649281060,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/labella/Downloads/sv/top.sv,1649270156,systemVerilog,,C:/Users/labella/Downloads/sv/testbench.sv,,top,,uvm,,,,,,

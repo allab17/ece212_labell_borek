@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_decls_p" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="28333fs"></ZoomStartTime>
+      <ZoomEndTime time="198334fs"></ZoomEndTime>
+      <Cursor1Time time="144373fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="158"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dataadr" type="array">
+      <obj_property name="ElementShortName">dataadr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataadr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/LIMIT" type="array">
+      <obj_property name="ElementShortName">LIMIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LIMIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/sign_extend_enb" type="logic">
+      <obj_property name="ElementShortName">sign_extend_enb</obj_property>
+      <obj_property name="ObjectShortName">sign_extend_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/sign_extend_enb" type="logic">
+      <obj_property name="ElementShortName">sign_extend_enb</obj_property>
+      <obj_property name="ObjectShortName">sign_extend_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/memtoreg" type="logic">
+      <obj_property name="ElementShortName">memtoreg</obj_property>
+      <obj_property name="ObjectShortName">memtoreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/memwrite" type="logic">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/branchne" type="logic">
+      <obj_property name="ElementShortName">branchne</obj_property>
+      <obj_property name="ObjectShortName">branchne</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/alusrc" type="logic">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/regdst" type="logic">
+      <obj_property name="ElementShortName">regdst</obj_property>
+      <obj_property name="ObjectShortName">regdst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/DUV/mips/U_C/U_MD/jump" type="logic">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+</wave_config>
