@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/lab09/rtl/control_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/lab09/sim/control_fsm_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_fsm_tb

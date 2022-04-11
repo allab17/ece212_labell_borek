@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 11 17:35:49 2022
+# Process ID: 2376
+# Current directory: C:/Users/labella/Documents/ece212_labell_borek/lab09/lab09/lab09.runs/synth_1
+# Command line: vivado.exe -log control_fsm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source control_fsm.tcl
+# Log file: C:/Users/labella/Documents/ece212_labell_borek/lab09/lab09/lab09.runs/synth_1/control_fsm.vds
+# Journal file: C:/Users/labella/Documents/ece212_labell_borek/lab09/lab09/lab09.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source control_fsm.tcl -notrace
