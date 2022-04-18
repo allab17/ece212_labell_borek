@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 12 15:41:39 2022
+# Process ID: 18368
+# Current directory: C:/Users/labella/Documents/ece212_labell_borek/lab09.2/lab09.2/lab09.2.runs/synth_1
+# Command line: vivado.exe -log mips_multi_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_multi_top.tcl
+# Log file: C:/Users/labella/Documents/ece212_labell_borek/lab09.2/lab09.2/lab09.2.runs/synth_1/mips_multi_top.vds
+# Journal file: C:/Users/labella/Documents/ece212_labell_borek/lab09.2/lab09.2/lab09.2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mips_multi_top.tcl -notrace
