@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 19 13:20:26 2022
+# Process ID: 12016
+# Current directory: C:/Users/labella/Documents/ece212_labell_borek/lab11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17396 C:\Users\labella\Documents\ece212_labell_borek\lab11\lab11.xpr
+# Log file: C:/Users/labella/Documents/ece212_labell_borek/lab11/vivado.log
+# Journal file: C:/Users/labella/Documents/ece212_labell_borek/lab11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.xpr
+add_files {{C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mipsbench.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/flopenr.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/flopr.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/memfile.dat}}
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/result_w}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/srca_e}} 
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/U_DP/srcb_e}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/testbench/DUV/mips/opcode_d}} 
+relaunch_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+relaunch_sim
+close_sim
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/result_w}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/rs_e}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/rt_e}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/rd_e}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/opcode_d}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/funct_d}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/srca_e}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/srcb_e}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/rd1_e}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/rd2_e}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/srca_e}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/srcb_e}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/writereg_m}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/writereg_w}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/pc}} 
+restart
+run all
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/pcnext_f}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/DUV/mips/U_DP/rd1_d}} {{/testbench/DUV/mips/U_DP/rd2_d}} 
+restart
+run all
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux3.sv} w ]
+add_files {{C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux3.sv}}

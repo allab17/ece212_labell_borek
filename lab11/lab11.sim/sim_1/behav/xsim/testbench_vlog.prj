@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
