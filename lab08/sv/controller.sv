@@ -16,25 +16,29 @@
 module controller(
     input mips_decls_p::opcode_t opcode,
     input mips_decls_p::funct_t funct,
-    input logic        zero, pcwrite,
+    output logic        zero, pcen, iord,
     output logic       memtoreg, memwrite,
-    output logic       pcen, alusrc,
+    output logic       alusrca,
+    output logic [1:0] alusrcb, pcsource,
+    output logic       irwrite,
     output logic       regdst, regwrite,
     output logic       jump,
-    output logic [2:0] alucontrol,
-    output logic sign_extend_enb
+    output logic [2:0] alucontrol
     );
 
     logic [1:0] aluop;
-    logic       branch, branchne;
-    logic beq_node, bne_node;
-
-    maindec U_MD(.opcode, .memtoreg, .memwrite, .branch, .branchne,
-    .alusrc, .regdst, .regwrite, .jump, .aluop, .sign_extend_enb);
+    logic       branch;
+    logic pcwrite;
+    
+    
+    
+    //maindec U_MD(.opcode, .memtoreg, .memwrite, .branch, .branchne,
+   // .alusrc, .regdst, .regwrite, .jump, .aluop, .sign_extend_enb);
+    
+   control_fsm FSM(.clk, .rst, .op(opcode), .iord, .alusrca, .alusrcb, .aluop, .pcsource, .irwrite, .pcwrite, .regdst, .memtoreg, .regwrite, .memwrite, .branch);
+            
+    assign pcen = pcwrite | (zero & branch);
 
     aludec  U_AD(.funct, .aluop, .alucontrol);
-
-    assign beq_node = branch & zero;
-    assign pcen = beq_node | pcwrite;
 
 endmodule

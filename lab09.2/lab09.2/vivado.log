@@ -19,9 +19,9 @@ INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
 open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1075.676 ; gain = 0.000
 update_compile_order -fileset sources_1
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab09.2/lab09.2/lab09.2.sim/sim_1/behav/xsim'
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 18 14:16:06 2022...
+ching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab09.2/lab09.2/lab09.2.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
 INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab09.2/lab09.2/lab09.2.sim/sim_1/behav/xsim/memfile.dat'

@@ -1,0 +1,1477 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 19 13:20:26 2022
+# Process ID: 12016
+# Current directory: C:/Users/labella/Documents/ece212_labell_borek/lab11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17396 C:\Users\labella\Documents\ece212_labell_borek\lab11\lab11.xpr
+# Log file: C:/Users/labella/Documents/ece212_labell_borek/lab11/vivado.log
+# Journal file: C:/Users/labella/Documents/ece212_labell_borek/lab11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/labella/Documents/ece212_labell_borek/lab09.2/lab11' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.gen/sources_1', nor could it be found using path 'C:/Users/labella/Documents/ece212_labell_borek/lab09.2/lab11/lab11.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:18 . Memory (MB): peak = 1081.898 ; gain = 0.000
+add_files {{C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mipsbench.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/flopenr.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/flopr.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv} {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/memfile.dat}}
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_d_e
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_e_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_f_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_m_w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_pc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.mips_decls_p
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pr_pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.pr_f_d
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pr_d_e
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.pr_e_m
+Compiling module xil_defaultlib.pr_m_w
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Apr 19 13:36:12 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 19 13:36:12 2022...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1081.898 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File memfile_nops.dat referenced on C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv at line 28 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1081.898 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.898 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/testbench/DUV/mips/U_DP/result_w}} 
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1081.898 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: File memfile_nops.dat referenced on C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv at line 28 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1081.898 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/testbench/DUV/mips/U_DP/srca_e}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/testbench/DUV/mips/U_DP/srcb_e}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: File memfile_nops.dat referenced on C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv at line 28 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1081.898 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/testbench/DUV/mips/opcode_d}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: File memfile_nops.dat referenced on C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv at line 28 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1081.898 ; gain = 0.000
+set_property top top [current_fileset]
+update_compile_order -fileset sources_1
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: File memfile_nops.dat referenced on C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv at line 28 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1081.898 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File memfile_nops.dat referenced on C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv at line 28 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1086.270 ; gain = 4.371
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/result_w}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/rs_e}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/rt_e}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/rd_e}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/opcode_d}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/funct_d}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: File memfile_nops.dat referenced on C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv at line 28 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1086.270 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_d_e
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_e_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_f_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_m_w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_pc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.mips_decls_p
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pr_pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.pr_f_d
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pr_d_e
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.pr_e_m
+Compiling module xil_defaultlib.pr_m_w
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1086.621 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/srca_e}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/srcb_e}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/rd1_e}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/rd2_e}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1462.469 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/srca_e}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/srcb_e}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/writereg_m}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_d_e
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_e_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_f_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_m_w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_pc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1462.469 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.mips_decls_p
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pr_pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.pr_f_d
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pr_d_e
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.pr_e_m
+Compiling module xil_defaultlib.pr_m_w
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_d_e
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_e_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_f_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_m_w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_pc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.mips_decls_p
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pr_pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.pr_f_d
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pr_d_e
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.pr_e_m
+Compiling module xil_defaultlib.pr_m_w
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1462.469 ; gain = 0.000
+run all
+$stop called at time : 440 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_d_e
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_e_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_f_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_m_w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_pc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1462.469 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.mips_decls_p
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pr_pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.pr_f_d
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pr_d_e
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.pr_e_m
+Compiling module xil_defaultlib.pr_m_w
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1462.469 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/writereg_w}} 
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips_decls_p.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_d_e
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_e_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_f_d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_m_w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pr_pc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.mips_decls_p
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.pr_pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.pr_f_d
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.pr_d_e
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.pr_e_m
+Compiling module xil_defaultlib.pr_m_w
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1462.469 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/pc}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/pcnext_f}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/testbench/DUV/mips/U_DP/rd1_d}} {{/testbench/DUV/mips/U_DP/rd2_d}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Simulation failed - expected to write m[84]=7, actual value 4294967292
+$stop called at time : 410 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 48
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Simulation failed - expected to write m[84]=7, actual value 4294967292
+$stop called at time : 410 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 48
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Simulation failed - expected to write m[84]=7, actual value 4294967292
+$stop called at time : 410 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 48
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Simulation failed - expected to write m[84]=7, actual value 4294967292
+$stop called at time : 410 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 48
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Simulation failed - expected to write m[84]=7, actual value 4294967292
+$stop called at time : 410 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 48
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj testbench_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.sim/sim_1/behav/xsim'
+"xelab -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 15ab44dac7eb48ffa91566daee4de794 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+$stop called at time : 430 ns : File "C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/testbench.sv" Line 59
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1462.469 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: top
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1816.062 ; gain = 251.176
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'mips' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'maindec' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'maindec' (1#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'aludec' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'aludec' (2#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/aludec.sv:12]
+WARNING: [Synth 8-6104] Input port 'funct' has an internal driver [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv:34]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (3#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/controller.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'pr_pc' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'pr_pc' (4#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_pc.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (5#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/adder.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv:9]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (6#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'pr_f_d' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'pr_f_d' (7#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (8#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/regfile.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'signext' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (9#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/signext.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'sl2' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'sl2' (10#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/sl2.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'pr_d_e' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'pr_d_e' (11#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (12#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/alu.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv:9]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (12#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'pr_e_m' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'pr_e_m' (13#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'pr_m_w' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'pr_m_w' (14#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_m_w.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (15#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/datapath.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'mips' (16#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'imem' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv:15]
+	Parameter SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'memfile.dat' is read successfully [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'imem' (17#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/imem.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'dmem' [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv:14]
+	Parameter SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dmem' (18#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/dmem.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'top' (19#1) [C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/top.sv:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1893.207 ; gain = 328.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1898.438 ; gain = 333.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1898.438 ; gain = 333.551
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1898.438 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2019.504 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 2076.184 ; gain = 511.297
+44 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2076.184 ; gain = 613.715
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux3.sv} w ]
+add_files {{C:/Users/labella/Documents/ece212_labell_borek/source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux3.sv}}
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 19 16:08:52 2022...

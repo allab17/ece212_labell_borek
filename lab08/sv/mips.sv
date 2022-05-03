@@ -34,16 +34,17 @@ module mips(
 
     // control signals
 
-    logic        memtoreg, alusrc, regdst, regwrite, jump, pcen;
+    logic        memtoreg, alusrc, regdst, regwrite, jump, pcen, iord;
     logic [2:0]  alucontrol;
 
    controller U_C(.opcode, .funct, .zero,
                   .memtoreg, .memwrite, .pcen,
                   .alusrc, .regdst, .regwrite, .jump,
-                  .alucontrol, .sign_extend_enb);
+                  .alucontrol, .sign_extend_enb, .iord);         
+                  
 
    datapath U_DP(.clk, .reset, .memtoreg, .pcen,
                  .alusrc, .regdst, .regwrite, .jump,
                  .alucontrol,.zero, .pc, .instr,
-                 .aluout, .writedata, .readdata, .sign_extend_enb);
+                 .aluout, .writedata, .readdata, .sign_extend_enb, .iord);
 endmodule

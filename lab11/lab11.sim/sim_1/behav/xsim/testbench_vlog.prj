@@ -11,6 +11,7 @@ sv xil_defaultlib  \
 "../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/maindec.sv" \
 "../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mips.sv" \
 "../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux2.sv" \
+"../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/mux3.sv" \
 "../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_d_e.sv" \
 "../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_e_m.sv" \
 "../../../../../source directories/mips_L_pipeline-master/mips_L_pipeline-master/sv/pr_f_d.sv" \
