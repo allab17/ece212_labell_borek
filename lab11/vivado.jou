@@ -11,3 +11,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/labella/Documents/ece212_labell_borek/lab11/lab11.xpr
+update_compile_order -fileset sources_1
